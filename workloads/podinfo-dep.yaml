@@ -32,6 +32,7 @@ spec:
         command:
         - sleep
         - "1"
+        - --ui-message='Welcome to Flux Abhijit'
       containers:
       - name: podinfod
         image: stefanprodan/podinfo:3.1.5
