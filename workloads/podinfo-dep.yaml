@@ -32,7 +32,6 @@ spec:
         command:
         - sleep
         - "1"
-        - --ui-message='Welcome to Flux Abhijit'
       containers:
       - name: podinfod
         image: stefanprodan/podinfo:3.1.5
@@ -56,6 +55,7 @@ spec:
         - --level=info
         - --random-delay=false
         - --random-error=false
+        - --ui-message='Welcome to Flux Abhijit'
         env:
         - name: PODINFO_UI_COLOR
           value: "#34577c"
